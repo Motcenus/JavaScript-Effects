@@ -10,7 +10,6 @@ function addElement() {
   const newDiv = document.createElement("div");
   newDiv.classList.add("box");
   newDiv.innerText = number_of_boxes;
-
   document.body.insertBefore(newDiv, container);
   number_of_boxes++;
 }
