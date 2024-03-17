@@ -2,9 +2,7 @@ let box = document.getElementById("box-shape");
 let container = document.getElementById("conatainer");
 let number_of_boxes = 0;
 
-
 box.onclick = addElement;
-
 
 function addElement() {
   const newDiv = document.createElement("div");
