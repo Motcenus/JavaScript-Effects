@@ -11,3 +11,4 @@ function addElement() {
   document.body.insertBefore(newDiv, container);
   number_of_boxes++;
 }
+
